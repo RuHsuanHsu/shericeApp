@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CF059F22C082E300A5C587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF059E22C082E300A5C587 /* AppDelegate.swift */; };
+		F4CF05A122C082E300A5C587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF05A022C082E300A5C587 /* ViewController.swift */; };
+		F4CF05A422C082E300A5C587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CF05A222C082E300A5C587 /* Main.storyboard */; };
+		F4CF05A622C082E300A5C587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CF05A522C082E300A5C587 /* Assets.xcassets */; };
+		F4CF05A922C082E300A5C587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CF05A722C082E300A5C587 /* LaunchScreen.storyboard */; };
+		F4CF05B422C082E400A5C587 /* shericeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF05B322C082E400A5C587 /* shericeAppTests.swift */; };
+		F4CF05BF22C082E400A5C587 /* shericeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF05BE22C082E400A5C587 /* shericeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CF05B022C082E400A5C587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF059322C082E300A5C587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF059A22C082E300A5C587;
+			remoteInfo = shericeApp;
+		};
+		F4CF05BB22C082E400A5C587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CF059322C082E300A5C587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CF059A22C082E300A5C587;
+			remoteInfo = shericeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4CF059B22C082E300A5C587 /* shericeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shericeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF059E22C082E300A5C587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4CF05A022C082E300A5C587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4CF05A322C082E300A5C587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4CF05A522C082E300A5C587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CF05A822C082E300A5C587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4CF05AA22C082E300A5C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CF05AF22C082E400A5C587 /* shericeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shericeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF05B322C082E400A5C587 /* shericeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shericeAppTests.swift; sourceTree = "<group>"; };
+		F4CF05B522C082E400A5C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CF05BA22C082E400A5C587 /* shericeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shericeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CF05BE22C082E400A5C587 /* shericeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shericeAppUITests.swift; sourceTree = "<group>"; };
+		F4CF05C022C082E400A5C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CF059822C082E300A5C587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF05AC22C082E400A5C587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF05B722C082E400A5C587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CF059222C082E300A5C587 = {
+			isa = PBXGroup;
+			children = (
+				F4CF059D22C082E300A5C587 /* shericeApp */,
+				F4CF05B222C082E400A5C587 /* shericeAppTests */,
+				F4CF05BD22C082E400A5C587 /* shericeAppUITests */,
+				F4CF059C22C082E300A5C587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CF059C22C082E300A5C587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF059B22C082E300A5C587 /* shericeApp.app */,
+				F4CF05AF22C082E400A5C587 /* shericeAppTests.xctest */,
+				F4CF05BA22C082E400A5C587 /* shericeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CF059D22C082E300A5C587 /* shericeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF059E22C082E300A5C587 /* AppDelegate.swift */,
+				F4CF05A022C082E300A5C587 /* ViewController.swift */,
+				F4CF05A222C082E300A5C587 /* Main.storyboard */,
+				F4CF05A522C082E300A5C587 /* Assets.xcassets */,
+				F4CF05A722C082E300A5C587 /* LaunchScreen.storyboard */,
+				F4CF05AA22C082E300A5C587 /* Info.plist */,
+			);
+			path = shericeApp;
+			sourceTree = "<group>";
+		};
+		F4CF05B222C082E400A5C587 /* shericeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF05B322C082E400A5C587 /* shericeAppTests.swift */,
+				F4CF05B522C082E400A5C587 /* Info.plist */,
+			);
+			path = shericeAppTests;
+			sourceTree = "<group>";
+		};
+		F4CF05BD22C082E400A5C587 /* shericeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF05BE22C082E400A5C587 /* shericeAppUITests.swift */,
+				F4CF05C022C082E400A5C587 /* Info.plist */,
+			);
+			path = shericeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CF059A22C082E300A5C587 /* shericeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF05C322C082E400A5C587 /* Build configuration list for PBXNativeTarget "shericeApp" */;
+			buildPhases = (
+				F4CF059722C082E300A5C587 /* Sources */,
+				F4CF059822C082E300A5C587 /* Frameworks */,
+				F4CF059922C082E300A5C587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shericeApp;
+			productName = shericeApp;
+			productReference = F4CF059B22C082E300A5C587 /* shericeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CF05AE22C082E400A5C587 /* shericeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF05C622C082E400A5C587 /* Build configuration list for PBXNativeTarget "shericeAppTests" */;
+			buildPhases = (
+				F4CF05AB22C082E400A5C587 /* Sources */,
+				F4CF05AC22C082E400A5C587 /* Frameworks */,
+				F4CF05AD22C082E400A5C587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CF05B122C082E400A5C587 /* PBXTargetDependency */,
+			);
+			name = shericeAppTests;
+			productName = shericeAppTests;
+			productReference = F4CF05AF22C082E400A5C587 /* shericeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4CF05B922C082E400A5C587 /* shericeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CF05C922C082E400A5C587 /* Build configuration list for PBXNativeTarget "shericeAppUITests" */;
+			buildPhases = (
+				F4CF05B622C082E400A5C587 /* Sources */,
+				F4CF05B722C082E400A5C587 /* Frameworks */,
+				F4CF05B822C082E400A5C587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CF05BC22C082E400A5C587 /* PBXTargetDependency */,
+			);
+			name = shericeAppUITests;
+			productName = shericeAppUITests;
+			productReference = F4CF05BA22C082E400A5C587 /* shericeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CF059322C082E300A5C587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = CJCU;
+				TargetAttributes = {
+					F4CF059A22C082E300A5C587 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F4CF05AE22C082E400A5C587 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F4CF059A22C082E300A5C587;
+					};
+					F4CF05B922C082E400A5C587 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F4CF059A22C082E300A5C587;
+					};
+				};
+			};
+			buildConfigurationList = F4CF059622C082E300A5C587 /* Build configuration list for PBXProject "shericeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CF059222C082E300A5C587;
+			productRefGroup = F4CF059C22C082E300A5C587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CF059A22C082E300A5C587 /* shericeApp */,
+				F4CF05AE22C082E400A5C587 /* shericeAppTests */,
+				F4CF05B922C082E400A5C587 /* shericeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CF059922C082E300A5C587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF05A922C082E300A5C587 /* LaunchScreen.storyboard in Resources */,
+				F4CF05A622C082E300A5C587 /* Assets.xcassets in Resources */,
+				F4CF05A422C082E300A5C587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF05AD22C082E400A5C587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF05B822C082E400A5C587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CF059722C082E300A5C587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF05A122C082E300A5C587 /* ViewController.swift in Sources */,
+				F4CF059F22C082E300A5C587 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF05AB22C082E400A5C587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF05B422C082E400A5C587 /* shericeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CF05B622C082E400A5C587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CF05BF22C082E400A5C587 /* shericeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CF05B122C082E400A5C587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF059A22C082E300A5C587 /* shericeApp */;
+			targetProxy = F4CF05B022C082E400A5C587 /* PBXContainerItemProxy */;
+		};
+		F4CF05BC22C082E400A5C587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CF059A22C082E300A5C587 /* shericeApp */;
+			targetProxy = F4CF05BB22C082E400A5C587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4CF05A222C082E300A5C587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CF05A322C082E300A5C587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4CF05A722C082E300A5C587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CF05A822C082E300A5C587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CF05C122C082E400A5C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4CF05C222C082E400A5C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CF05C422C082E400A5C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L96G5KY244;
+				INFOPLIST_FILE = shericeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.shericeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4CF05C522C082E400A5C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L96G5KY244;
+				INFOPLIST_FILE = shericeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.shericeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4CF05C722C082E400A5C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L96G5KY244;
+				INFOPLIST_FILE = shericeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.shericeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shericeApp.app/shericeApp";
+			};
+			name = Debug;
+		};
+		F4CF05C822C082E400A5C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L96G5KY244;
+				INFOPLIST_FILE = shericeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.shericeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shericeApp.app/shericeApp";
+			};
+			name = Release;
+		};
+		F4CF05CA22C082E400A5C587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L96G5KY244;
+				INFOPLIST_FILE = shericeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.shericeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shericeApp;
+			};
+			name = Debug;
+		};
+		F4CF05CB22C082E400A5C587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L96G5KY244;
+				INFOPLIST_FILE = shericeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cjcu.shericeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shericeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CF059622C082E300A5C587 /* Build configuration list for PBXProject "shericeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF05C122C082E400A5C587 /* Debug */,
+				F4CF05C222C082E400A5C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF05C322C082E400A5C587 /* Build configuration list for PBXNativeTarget "shericeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF05C422C082E400A5C587 /* Debug */,
+				F4CF05C522C082E400A5C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF05C622C082E400A5C587 /* Build configuration list for PBXNativeTarget "shericeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF05C722C082E400A5C587 /* Debug */,
+				F4CF05C822C082E400A5C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CF05C922C082E400A5C587 /* Build configuration list for PBXNativeTarget "shericeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CF05CA22C082E400A5C587 /* Debug */,
+				F4CF05CB22C082E400A5C587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CF059322C082E300A5C587 /* Project object */;
+}
